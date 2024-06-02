@@ -26,6 +26,46 @@ It efficiently handles :
 
 **Database :** MySQL
 
+## Installation
+
+**1. Install Nodemon** 
+```bash
+npm install -g nodemon
+```
+**2. Install Express.js** 
+```bash
+npm install express
+```
+**3. Install TailwindCSS** 
+```bash
+npm install -D tailwindcss
+```
+
+## Deployment
+
+To deploy this project in Visual studio code, you need to :
+
+1. Clone the repository
+```bash
+git clone https://github.com/ArpanSurin/Online-Shoes-Management-System.git
+```
+2. Navigate to project directory
+```bash
+cd Online-Shoes-Management-System
+```
+3. Start the Server
+```bash
+cd Server
+npm start
+```
+4. Start the website 
+```bash
+npm run dev
+```
+
+## Front Page
+![Front-page Screenshot](https://drive.google.com/uc?id=1QunIcYTQJr6Ln2T48fnIoHheVNFpWeVf)
+
 ## Database Schema
 
 ### 1. Shoes table
@@ -70,43 +110,3 @@ It efficiently handles :
 | **Shoe_id**  |  int  | YES   |      | NULL    |       |
 | **Quantity**  |  int  | YES  |   | NULL    |       |
 | **Purchase_date**  |  date  | YES  |   | NULL    |       |
-
-## Installation
-
-**1. Install Nodemon** 
-```bash
-npm install -g nodemon
-```
-**2. Install Express.js** 
-```bash
-npm install express
-```
-**3. Install TailwindCSS** 
-```bash
-npm install -D tailwindcss
-```
-
-## Deployment
-
-To deploy this project in Visual studio code, you need to :
-
-1. Clone the repository
-```bash
-git clone https://github.com/ArpanSurin/Online-Shoes-Management-System.git
-```
-2. Navigate to project directory
-```bash
-cd Online-Shoes-Management-System
-```
-3. Start the Server
-```bash
-cd Server
-npm start
-```
-4. Start the website 
-```bash
-npm run dev
-```
-
-## Front Page
-![Front-page Screenshot](https://drive.google.com/uc?id=1QunIcYTQJr6Ln2T48fnIoHheVNFpWeVf)
