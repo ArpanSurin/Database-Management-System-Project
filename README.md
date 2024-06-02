@@ -88,11 +88,22 @@ npm install -D tailwindcss
 
 ## Deployment
 
-To deploy this project in Visual studio code, run
+To deploy this project in Visual studio code, you need to :
+
+1. Clone the repository
+```bash
+git clone https://github.com/ArpanSurin/Online-Shoes-Management-System.git
+```
+2. Navigate to project directory
+```bash
+cd Online-Shoes-Management-System
+```
+3. Start the Server
 ```bash
 cd Server
+npm start
 ```
-on one powershell and on another, run 
+4. Start the website 
 ```bash
 npm run dev
 ```
